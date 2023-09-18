@@ -1,0 +1,38 @@
+byte[] imageBytes1 = Encoding.UTF8.GetBytes(BrowseFile.FileName);
+                var imageStr1 = Convert.ToBase64String(imageBytes1);
+                byte[] binary = Encoding.ASCII.GetBytes(imageStr1);
+                TextWriter write2 = new StreamWriter(@"" + Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\Desktop\\serialized-ASCII.txt", true);
+                write2.WriteLine("This is the serialized image :");
+                write2.WriteLine("" + binary);
+                write2.Close();
+
+                byte[] imageBytes = Encoding.UTF8.GetBytes(BrowseFile.FileName);
+                var imageStr = Convert.ToBase64String(imageBytes);
+                TextWriter write1 = new StreamWriter(@"" + Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\Desktop\\serialized-UTF8.txt", true);
+                write1.WriteLine("This is the serialized image :");
+                write1.WriteLine("" + imageStr);
+                write1.Close();
+
+                //serialized
+                Bitmap bits = new Bitmap(BrowseFile.FileName);
+                MemoryStream ms = new MemoryStream();
+                bits.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+                StringWriter sw = new StringWriter();
+                XmlTextWriter xw = new XmlTextWriter(sw);
+                xw.Formatting = Formatting.Indented;
+                XmlSerializer ser = new XmlSerializer(ms.GetBuffer().GetType());
+                ser.Serialize(xw, ms.GetBuffer());
+                string serializeContent = sw.GetStringBuilder().ToString();
+                xw.Close();
+
+
+                //deserialized
+                XmlTextReader xrw = new XmlTextReader(new StringReader(serializeContent));
+                bits = new Bitmap(new MemoryStream((byte[])ser.Deserialize(xrw)));
+                bits.Save(@"" + Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\Desktop\\deserialized.txt");
+                xrw.Close();
+
+                Bitmap bitmap = new Bitmap(BrowseFile.FileName);
+                DataContractSerializer dcs = new DataContractSerializer(typeof(Bitmap));
+                dcs.WriteObject(File.Create(@"" + Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\Desktop\\deserialized-1.txt"), bitmap);
+                
