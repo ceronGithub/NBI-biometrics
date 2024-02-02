@@ -121,11 +121,12 @@ namespace NBI
             IsDatabaseConnected = CRUD.testConnection();
             if (IsDatabaseConnected == true)
             {
+
                 buttonClear.Enabled = true;
                 buttonRegister.Enabled = true;
                 groupBox1.Enabled = true;
-                groupBox2.Enabled = true;
-                groupBox3.Enabled = true;
+                groupBox2.Enabled = false;
+                groupBox3.Enabled = false;
                 menuToolStripMenuItem.Enabled = true;
             }
             else
