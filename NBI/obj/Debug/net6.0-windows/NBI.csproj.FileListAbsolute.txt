@@ -80,3 +80,45 @@ C:\Users\user\Desktop\(VS)Dekstop Application Project\nbi-desktop-application\NB
 C:\Users\user\Desktop\(VS)Dekstop Application Project\nbi-desktop-application\NBI\obj\Debug\net6.0-windows\NBI.pdb
 C:\Users\user\Desktop\(VS)Dekstop Application Project\nbi-desktop-application\NBI\obj\Debug\net6.0-windows\NBI.genruntimeconfig.cache
 C:\Users\user\Desktop\(VS)Dekstop Application Project\nbi-desktop-application\NBI\obj\Debug\net6.0-windows\ref\NBI.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\NBI.exe
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\NBI.deps.json
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\NBI.runtimeconfig.json
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\NBI.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\NBI.pdb
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\Dahomey.Cbor.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\ICSharpCode.SharpZipLib.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\SourceAFIS.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.csproj.AssemblyReference.cache
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.Form1.resources
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.Form2.resources
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.Form3.resources
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.Form4.resources
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.Properties.Resources.resources
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.csproj.GenerateResource.cache
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.AssemblyInfoInputs.cache
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.AssemblyInfo.cs
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.csproj.CoreCompileInputs.cache
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.sourcelink.json
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.csproj.CopyComplete
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\refint\NBI.dll
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.pdb
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\NBI.genruntimeconfig.cache
+C:\Users\Ceron Calsena\Desktop\NBI-biometrics\NBI\obj\Debug\net6.0-windows\ref\NBI.dll

@@ -123,7 +123,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { menuToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1492, 24);
+            menuStrip1.Size = new Size(1236, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -267,7 +267,7 @@
             groupBox1.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox1.Location = new Point(12, 27);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(846, 482);
+            groupBox1.Size = new Size(693, 482);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Personal Information";
@@ -277,7 +277,7 @@
             textBoxZipcode.Location = new Point(191, 387);
             textBoxZipcode.MaxLength = 6;
             textBoxZipcode.Name = "textBoxZipcode";
-            textBoxZipcode.Size = new Size(359, 28);
+            textBoxZipcode.Size = new Size(155, 28);
             textBoxZipcode.TabIndex = 24;
             textBoxZipcode.TextAlign = HorizontalAlignment.Center;
             textBoxZipcode.KeyPress += textBoxZipcode_KeyPress;
@@ -297,7 +297,7 @@
             // 
             textBoxBarangay.Location = new Point(191, 342);
             textBoxBarangay.Name = "textBoxBarangay";
-            textBoxBarangay.Size = new Size(633, 28);
+            textBoxBarangay.Size = new Size(490, 28);
             textBoxBarangay.TabIndex = 22;
             textBoxBarangay.Leave += textBoxBarangay_Leave;
             // 
@@ -315,7 +315,7 @@
             // 
             textBoxMunicipality.Location = new Point(191, 296);
             textBoxMunicipality.Name = "textBoxMunicipality";
-            textBoxMunicipality.Size = new Size(633, 28);
+            textBoxMunicipality.Size = new Size(490, 28);
             textBoxMunicipality.TabIndex = 20;
             textBoxMunicipality.Leave += textBoxMunicipality_Leave;
             // 
@@ -345,7 +345,7 @@
             label10.AutoSize = true;
             label10.Font = new Font("Sitka Subheading", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Red;
-            label10.Location = new Point(339, 198);
+            label10.Location = new Point(157, 227);
             label10.Name = "label10";
             label10.Size = new Size(157, 16);
             label10.TabIndex = 17;
@@ -355,7 +355,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Sitka Subheading", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(615, 86);
+            label9.Location = new Point(472, 91);
             label9.Name = "label9";
             label9.Size = new Size(22, 28);
             label9.TabIndex = 16;
@@ -365,7 +365,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Sitka Subheading", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(612, 24);
+            label8.Location = new Point(469, 29);
             label8.Name = "label8";
             label8.Size = new Size(208, 47);
             label8.TabIndex = 15;
@@ -375,7 +375,7 @@
             // 
             textBoxAddress.Location = new Point(191, 248);
             textBoxAddress.Name = "textBoxAddress";
-            textBoxAddress.Size = new Size(633, 28);
+            textBoxAddress.Size = new Size(490, 28);
             textBoxAddress.TabIndex = 14;
             textBoxAddress.KeyDown += textBoxAddress_KeyDown;
             textBoxAddress.Leave += textBoxAddress_Leave;
@@ -384,7 +384,7 @@
             // 
             comboBoxSex.FormattingEnabled = true;
             comboBoxSex.Items.AddRange(new object[] { "Male", "Female" });
-            comboBoxSex.Location = new Point(705, 190);
+            comboBoxSex.Location = new Point(562, 195);
             comboBoxSex.Name = "comboBoxSex";
             comboBoxSex.Size = new Size(119, 31);
             comboBoxSex.TabIndex = 13;
@@ -396,13 +396,13 @@
             DatePickerDateOrBirth.Location = new Point(151, 193);
             DatePickerDateOrBirth.MaxDate = new DateTime(2023, 5, 19, 0, 0, 0, 0);
             DatePickerDateOrBirth.Name = "DatePickerDateOrBirth";
-            DatePickerDateOrBirth.Size = new Size(172, 28);
+            DatePickerDateOrBirth.Size = new Size(272, 28);
             DatePickerDateOrBirth.TabIndex = 12;
             DatePickerDateOrBirth.Value = new DateTime(2023, 5, 19, 0, 0, 0, 0);
             // 
             // textBoxSname
             // 
-            textBoxSname.Location = new Point(705, 146);
+            textBoxSname.Location = new Point(562, 151);
             textBoxSname.Name = "textBoxSname";
             textBoxSname.Size = new Size(119, 28);
             textBoxSname.TabIndex = 11;
@@ -412,7 +412,7 @@
             // 
             textBoxLname.Location = new Point(151, 146);
             textBoxLname.Name = "textBoxLname";
-            textBoxLname.Size = new Size(399, 28);
+            textBoxLname.Size = new Size(272, 28);
             textBoxLname.TabIndex = 10;
             textBoxLname.Leave += textBoxLname_Leave;
             // 
@@ -420,7 +420,7 @@
             // 
             textBoxMname.Location = new Point(151, 97);
             textBoxMname.Name = "textBoxMname";
-            textBoxMname.Size = new Size(399, 28);
+            textBoxMname.Size = new Size(272, 28);
             textBoxMname.TabIndex = 9;
             textBoxMname.Leave += textBoxMname_Leave;
             // 
@@ -428,7 +428,7 @@
             // 
             textBoxFname.Location = new Point(151, 48);
             textBoxFname.Name = "textBoxFname";
-            textBoxFname.Size = new Size(399, 28);
+            textBoxFname.Size = new Size(272, 28);
             textBoxFname.TabIndex = 8;
             textBoxFname.Leave += textBoxFname_Leave;
             // 
@@ -456,7 +456,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(587, 193);
+            label5.Location = new Point(444, 198);
             label5.Name = "label5";
             label5.Size = new Size(44, 23);
             label5.TabIndex = 4;
@@ -466,7 +466,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(587, 149);
+            label4.Location = new Point(444, 154);
             label4.Name = "label4";
             label4.Size = new Size(106, 23);
             label4.TabIndex = 3;
@@ -512,16 +512,16 @@
             groupBox2.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox2.Location = new Point(12, 515);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(459, 235);
+            groupBox2.Size = new Size(494, 148);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
             groupBox2.Text = "Scanning Device";
             // 
             // buttonSignature
             // 
-            buttonSignature.Location = new Point(134, 174);
+            buttonSignature.Location = new Point(340, 59);
             buttonSignature.Name = "buttonSignature";
-            buttonSignature.Size = new Size(178, 48);
+            buttonSignature.Size = new Size(148, 35);
             buttonSignature.TabIndex = 4;
             buttonSignature.Text = "Capture Signature";
             buttonSignature.UseVisualStyleBackColor = true;
@@ -529,9 +529,9 @@
             // 
             // buttonCamera
             // 
-            buttonCamera.Location = new Point(245, 107);
+            buttonCamera.Location = new Point(191, 78);
             buttonCamera.Name = "buttonCamera";
-            buttonCamera.Size = new Size(178, 48);
+            buttonCamera.Size = new Size(134, 35);
             buttonCamera.TabIndex = 3;
             buttonCamera.Text = "Camera";
             buttonCamera.UseVisualStyleBackColor = true;
@@ -539,9 +539,9 @@
             // 
             // buttonDocumentScanning
             // 
-            buttonDocumentScanning.Location = new Point(28, 107);
+            buttonDocumentScanning.Location = new Point(20, 78);
             buttonDocumentScanning.Name = "buttonDocumentScanning";
-            buttonDocumentScanning.Size = new Size(178, 48);
+            buttonDocumentScanning.Size = new Size(162, 35);
             buttonDocumentScanning.TabIndex = 2;
             buttonDocumentScanning.Text = "Document Scanning";
             buttonDocumentScanning.UseVisualStyleBackColor = true;
@@ -549,9 +549,9 @@
             // 
             // buttonIrisScanning
             // 
-            buttonIrisScanning.Location = new Point(245, 37);
+            buttonIrisScanning.Location = new Point(197, 37);
             buttonIrisScanning.Name = "buttonIrisScanning";
-            buttonIrisScanning.Size = new Size(178, 48);
+            buttonIrisScanning.Size = new Size(123, 35);
             buttonIrisScanning.TabIndex = 1;
             buttonIrisScanning.Text = "Iris Scanning";
             buttonIrisScanning.UseVisualStyleBackColor = true;
@@ -559,9 +559,9 @@
             // 
             // buttonFingerScanning
             // 
-            buttonFingerScanning.Location = new Point(28, 37);
+            buttonFingerScanning.Location = new Point(34, 37);
             buttonFingerScanning.Name = "buttonFingerScanning";
-            buttonFingerScanning.Size = new Size(178, 48);
+            buttonFingerScanning.Size = new Size(134, 35);
             buttonFingerScanning.TabIndex = 0;
             buttonFingerScanning.Text = "Finger Scanning";
             buttonFingerScanning.UseVisualStyleBackColor = true;
@@ -570,9 +570,9 @@
             // buttonClear
             // 
             buttonClear.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonClear.Location = new Point(687, 577);
+            buttonClear.Location = new Point(512, 543);
             buttonClear.Name = "buttonClear";
-            buttonClear.Size = new Size(127, 138);
+            buttonClear.Size = new Size(193, 44);
             buttonClear.TabIndex = 4;
             buttonClear.Text = "Clear";
             buttonClear.UseVisualStyleBackColor = true;
@@ -581,9 +581,9 @@
             // buttonRegister
             // 
             buttonRegister.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonRegister.Location = new Point(516, 577);
+            buttonRegister.Location = new Point(512, 603);
             buttonRegister.Name = "buttonRegister";
-            buttonRegister.Size = new Size(127, 138);
+            buttonRegister.Size = new Size(193, 44);
             buttonRegister.TabIndex = 5;
             buttonRegister.Text = "Register";
             buttonRegister.UseVisualStyleBackColor = true;
@@ -612,12 +612,12 @@
             groupBox3.Controls.Add(fileUploaderIrisRight);
             groupBox3.Controls.Add(fileUploaderIrisLeft);
             groupBox3.Controls.Add(fileUploaderFingerLeft);
-            groupBox3.Location = new Point(864, 37);
+            groupBox3.Location = new Point(711, 36);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(621, 713);
+            groupBox3.Size = new Size(521, 627);
             groupBox3.TabIndex = 6;
             groupBox3.TabStop = false;
-            groupBox3.Text = "File Uploader";            
+            groupBox3.Text = "File Uploader";
             // 
             // label11
             // 
@@ -632,7 +632,7 @@
             // 
             // pictureBox9
             // 
-            pictureBox9.Location = new Point(268, 589);
+            pictureBox9.Location = new Point(189, 531);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(132, 80);
             pictureBox9.TabIndex = 33;
@@ -641,9 +641,9 @@
             // fileUploaderSignature
             // 
             fileUploaderSignature.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderSignature.Location = new Point(247, 535);
+            fileUploaderSignature.Location = new Point(177, 493);
             fileUploaderSignature.Name = "fileUploaderSignature";
-            fileUploaderSignature.Size = new Size(174, 48);
+            fileUploaderSignature.Size = new Size(174, 32);
             fileUploaderSignature.TabIndex = 32;
             fileUploaderSignature.Text = "Signature";
             fileUploaderSignature.UseVisualStyleBackColor = true;
@@ -652,7 +652,7 @@
             // textBox2
             // 
             textBox2.Enabled = false;
-            textBox2.Location = new Point(23, 348);
+            textBox2.Location = new Point(6, 336);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(171, 23);
             textBox2.TabIndex = 31;
@@ -660,7 +660,7 @@
             // textBox1
             // 
             textBox1.Enabled = false;
-            textBox1.Location = new Point(23, 178);
+            textBox1.Location = new Point(6, 162);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(171, 23);
             textBox1.TabIndex = 30;
@@ -668,9 +668,9 @@
             // fileUploaderFingerRight
             // 
             fileUploaderFingerRight.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderFingerRight.Location = new Point(23, 208);
+            fileUploaderFingerRight.Location = new Point(6, 208);
             fileUploaderFingerRight.Name = "fileUploaderFingerRight";
-            fileUploaderFingerRight.Size = new Size(171, 48);
+            fileUploaderFingerRight.Size = new Size(171, 32);
             fileUploaderFingerRight.TabIndex = 29;
             fileUploaderFingerRight.Text = "Finger-Right";
             fileUploaderFingerRight.UseVisualStyleBackColor = true;
@@ -679,9 +679,9 @@
             // fileUploaderThumbRight
             // 
             fileUploaderThumbRight.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderThumbRight.Location = new Point(228, 208);
+            fileUploaderThumbRight.Location = new Point(189, 207);
             fileUploaderThumbRight.Name = "fileUploaderThumbRight";
-            fileUploaderThumbRight.Size = new Size(171, 48);
+            fileUploaderThumbRight.Size = new Size(171, 32);
             fileUploaderThumbRight.TabIndex = 28;
             fileUploaderThumbRight.Text = "Thumb-Right";
             fileUploaderThumbRight.UseVisualStyleBackColor = true;
@@ -690,9 +690,9 @@
             // fileUploaderThumbLeft
             // 
             fileUploaderThumbLeft.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderThumbLeft.Location = new Point(228, 38);
+            fileUploaderThumbLeft.Location = new Point(189, 38);
             fileUploaderThumbLeft.Name = "fileUploaderThumbLeft";
-            fileUploaderThumbLeft.Size = new Size(171, 48);
+            fileUploaderThumbLeft.Size = new Size(171, 32);
             fileUploaderThumbLeft.TabIndex = 27;
             fileUploaderThumbLeft.Text = "Thumb-Left";
             fileUploaderThumbLeft.UseVisualStyleBackColor = true;
@@ -700,7 +700,7 @@
             // 
             // pictureBox8
             // 
-            pictureBox8.Location = new Point(147, 438);
+            pictureBox8.Location = new Point(93, 407);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(132, 80);
             pictureBox8.TabIndex = 22;
@@ -708,7 +708,7 @@
             // 
             // pictureBox7
             // 
-            pictureBox7.Location = new Point(371, 438);
+            pictureBox7.Location = new Point(306, 407);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(132, 80);
             pictureBox7.TabIndex = 21;
@@ -716,7 +716,7 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Location = new Point(452, 262);
+            pictureBox6.Location = new Point(366, 246);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(132, 80);
             pictureBox6.TabIndex = 20;
@@ -724,7 +724,7 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Location = new Point(452, 92);
+            pictureBox5.Location = new Point(366, 76);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(132, 80);
             pictureBox5.TabIndex = 19;
@@ -732,7 +732,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Location = new Point(247, 262);
+            pictureBox4.Location = new Point(205, 246);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(135, 80);
             pictureBox4.TabIndex = 18;
@@ -740,7 +740,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(247, 92);
+            pictureBox3.Location = new Point(205, 76);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(132, 80);
             pictureBox3.TabIndex = 17;
@@ -748,7 +748,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(43, 262);
+            pictureBox2.Location = new Point(23, 246);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(132, 80);
             pictureBox2.TabIndex = 16;
@@ -756,7 +756,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(43, 92);
+            pictureBox1.Location = new Point(23, 76);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(132, 80);
             pictureBox1.TabIndex = 15;
@@ -765,9 +765,9 @@
             // fileUploaderIDPicture
             // 
             fileUploaderIDPicture.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderIDPicture.Location = new Point(124, 384);
+            fileUploaderIDPicture.Location = new Point(72, 370);
             fileUploaderIDPicture.Name = "fileUploaderIDPicture";
-            fileUploaderIDPicture.Size = new Size(174, 48);
+            fileUploaderIDPicture.Size = new Size(174, 31);
             fileUploaderIDPicture.TabIndex = 12;
             fileUploaderIDPicture.Text = "ID Picture";
             fileUploaderIDPicture.UseVisualStyleBackColor = true;
@@ -776,9 +776,9 @@
             // fileUploaderDocument
             // 
             fileUploaderDocument.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderDocument.Location = new Point(348, 384);
+            fileUploaderDocument.Location = new Point(281, 370);
             fileUploaderDocument.Name = "fileUploaderDocument";
-            fileUploaderDocument.Size = new Size(174, 48);
+            fileUploaderDocument.Size = new Size(174, 31);
             fileUploaderDocument.TabIndex = 11;
             fileUploaderDocument.Text = "Document";
             fileUploaderDocument.UseVisualStyleBackColor = true;
@@ -787,9 +787,9 @@
             // fileUploaderIrisRight
             // 
             fileUploaderIrisRight.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderIrisRight.Location = new Point(430, 208);
+            fileUploaderIrisRight.Location = new Point(374, 208);
             fileUploaderIrisRight.Name = "fileUploaderIrisRight";
-            fileUploaderIrisRight.Size = new Size(174, 48);
+            fileUploaderIrisRight.Size = new Size(120, 33);
             fileUploaderIrisRight.TabIndex = 10;
             fileUploaderIrisRight.Text = "Iris-Right";
             fileUploaderIrisRight.UseVisualStyleBackColor = true;
@@ -798,9 +798,9 @@
             // fileUploaderIrisLeft
             // 
             fileUploaderIrisLeft.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderIrisLeft.Location = new Point(430, 38);
+            fileUploaderIrisLeft.Location = new Point(375, 38);
             fileUploaderIrisLeft.Name = "fileUploaderIrisLeft";
-            fileUploaderIrisLeft.Size = new Size(174, 48);
+            fileUploaderIrisLeft.Size = new Size(119, 32);
             fileUploaderIrisLeft.TabIndex = 9;
             fileUploaderIrisLeft.Text = "Iris-Left";
             fileUploaderIrisLeft.UseVisualStyleBackColor = true;
@@ -809,9 +809,9 @@
             // fileUploaderFingerLeft
             // 
             fileUploaderFingerLeft.Font = new Font("Sitka Subheading", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            fileUploaderFingerLeft.Location = new Point(23, 38);
+            fileUploaderFingerLeft.Location = new Point(6, 38);
             fileUploaderFingerLeft.Name = "fileUploaderFingerLeft";
-            fileUploaderFingerLeft.Size = new Size(171, 48);
+            fileUploaderFingerLeft.Size = new Size(171, 32);
             fileUploaderFingerLeft.TabIndex = 7;
             fileUploaderFingerLeft.Text = "Finger-Left";
             fileUploaderFingerLeft.UseVisualStyleBackColor = true;
@@ -831,13 +831,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1492, 766);
+            ClientSize = new Size(1236, 675);
             Controls.Add(groupBox3);
-            Controls.Add(buttonRegister);
             Controls.Add(buttonClear);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(menuStrip1);
+            Controls.Add(buttonRegister);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
